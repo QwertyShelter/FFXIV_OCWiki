@@ -1,0 +1,70 @@
+site_name: ☆《狛风》居酒屋～
+theme:
+  name: material
+  language: 'zh'
+  highlightjs: true
+  logo: imgs/favicon.png
+
+  favicon: imgs/favicon.png
+
+  palette: 
+    # 切换到暗色模式  
+    - media: "(prefers-color-scheme: dark)"  
+      scheme:  slate 
+      primary: deep purple  
+      accent: blue  
+      toggle:  
+        icon: material/weather-sunny  
+        name: 切换到亮色模式
+    # 切换到亮色模式  
+    - media: "(prefers-color-scheme: light)"  
+      scheme: default  
+      primary: pink  
+      accent: indigo
+      toggle:  
+        icon: material/weather-night  
+        name: 切换到暗色模式
+
+  features:
+    - content.action.edit
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+
+  plugins:
+    - search
+    - glightbox
+    - tags
+      
+
+nav:
+  - 首页: index.md
+  - 店长: 
+    - 空一: VOID/VOID.md
+    - 阿里尔: VOID/Ariel.md
+  - 母肥:
+    - 皮皮雅·皮雅: Pinion/Pinion.md
+    - 科科蒂法·洛洛蒂法: Pinion/Netalie.md
+    - 阿里尔: Pinion/Ariel.md
+    - 凡妮莎: Pinion/Vanessa.md
+  - 螺子: Friend/Friend.md
+  - 素质: Calasse/Calasse.md
+  - 神经: WhiteMoth/WhiteMoth.md
+  - 富婆: Friera/Friera.md
+  - 白咪: Catty/Catty.md
+  - 小特: Telosse/Telosse.md
+
+extra_css:  
+  - custom_theme/extra.css
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
