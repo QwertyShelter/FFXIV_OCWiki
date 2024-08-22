@@ -47,7 +47,7 @@ nav:
   - 母肥:
     - 皮皮雅·皮雅: Pinion/Pinion.md
     - 科科蒂法·洛洛蒂法: Pinion/Netalie.md
-    - 阿里尔: Pinion/Ariel.md
+    - 阿里尔: VOID/Ariel.md
     - 凡妮莎: Pinion/Vanessa.md
   - 螺子: Friend/Friend.md
   - 素质: Calasse/Calasse.md
@@ -68,3 +68,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
