@@ -13,17 +13,17 @@ theme:
       scheme:  slate 
       primary: deep purple  
       accent: blue  
-      toggle:  
-        icon: material/weather-sunny  
-        name: 切换到亮色模式
+      # toggle:  
+        # icon: material/weather-sunny  
+        # name: 切换到亮色模式
     # 切换到亮色模式  
-    - media: "(prefers-color-scheme: light)"  
-      scheme: default  
-      primary: pink  
-      accent: indigo
-      toggle:  
-        icon: material/weather-night  
-        name: 切换到暗色模式
+    # - media: "(prefers-color-scheme: light)"  
+      # scheme: default  
+      # primary: pink  
+      # accent: indigo
+      # toggle:  
+        # icon: material/weather-night  
+        # name: 切换到暗色模式
 
   features:
     - content.action.edit
