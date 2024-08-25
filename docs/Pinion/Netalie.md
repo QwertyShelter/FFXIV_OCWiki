@@ -1,7 +1,7 @@
 # **科科蒂法·洛洛蒂法**
 
 !!! example "Netalie"
-    ![Image title](./Image/Pinion.png){ align=right width=200 }
+    ![Image title](./Image/Netalie.png){ align=right width=200 }
 
     <p style="font-size: 16px;">
     <br><br>
