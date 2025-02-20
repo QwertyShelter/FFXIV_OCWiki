@@ -1,4 +1,4 @@
-# **卡菈斯·菲奥** {#idx_1}
+# **卡菈斯 • 菲奥** {#idx_1}
 
 === "长弓子虚（第六星历）"
     !!! question "完美大树守卫"
@@ -11,7 +11,7 @@
         </p>
         <p style="text-align: right; font-size: 16px;"> —— 长弓子虚</p>
 
-=== "卡菈斯·菲奥"
+=== "卡菈斯 • 菲奥"
     !!! question "完美大树守卫"
         ![Image title](./Image/Calasse.png){ align=left width=200 }
         
